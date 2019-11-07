@@ -16,10 +16,10 @@ int addNumber(int a, int b) {
 
 int getTriangleType(int a, int b, int c) {
     if (a > b && a > c) {
-        int temp = c; c = a; a = temp;
+        int temp = c; c = a; a = temp
     }
     else if (b > a && b > c) {
-        int temp = c; c = b; b = temp;
+        int temp = c; c = b; b = temp
     }
 
     if (a + b <= c) {
